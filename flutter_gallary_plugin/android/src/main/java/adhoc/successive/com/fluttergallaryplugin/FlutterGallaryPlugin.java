@@ -41,7 +41,7 @@ public class FlutterGallaryPlugin implements MethodCallHandler {
 
 
   public static void registerWith(Registrar registrar) {
-    final MethodChannel channel = new MethodChannel(registrar.messenger(), "flutter_gallary_plugin");
+    final MethodChannel channel = new MethodChannel(registrar.messenger(), "image_gallery");
     channel.setMethodCallHandler(new FlutterGallaryPlugin(registrar.activity(), channel,registrar));
   }
 

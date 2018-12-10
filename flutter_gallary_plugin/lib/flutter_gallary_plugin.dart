@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 
 class FlutterGallaryPlugin {
   static const MethodChannel _channel =
-      const MethodChannel('flutter_gallary_plugin');
+      const MethodChannel('image_gallery');
 
 
   static Future<Object> get getAllImages async {
