@@ -3,7 +3,7 @@ import 'dart:io';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:image_gallery/flutter_gallary_plugin.dart';
+import 'package:image_gallery/image_gallery.dart';
 
 void main() => runApp(
     new MyApp());
